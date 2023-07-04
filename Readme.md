@@ -16,7 +16,7 @@
     npm run package-macos
     npm run package-linux
 Подробнее можно посмотреть в package.json.
-После этого можно перейти в папку `out/smartix-win32-x64` и запустить там файл smatrix.exe
+После этого можно перейти в папку `out/smartix-win32-x64` и запустить там файл `smatrix.exe`
 
   
 
