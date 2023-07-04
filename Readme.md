@@ -8,12 +8,13 @@
 
 ##  Билд
 
-Вместо npm start:
+Вместо npm start одну из следующих команд (в зависимости от желаемой системы):
 
   
 
-    npm run package-<Имя системы>
-
+    npm run package-winows
+    npm run package-macos
+    npm run package-linux
 Подробнее можно посмотреть в package.json.
 
   
