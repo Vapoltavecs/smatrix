@@ -3,17 +3,18 @@
     border-right: 1px solid rgb(209, 209, 209);
     width: max-content;
     min-width: 250px;
+    min-height: 100vh;
 }
 
 .GroupsList{
     list-style: none;
-    min-height: 100vh;
     background-color: white;
 }
 
 .GroupsList__nav.children{
     border-right: none;
     min-width: auto;
+    min-height: auto;
 }
 
 .GroupsList.children{
