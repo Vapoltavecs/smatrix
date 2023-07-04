@@ -1,0 +1,51 @@
+.GroupsList__nav{
+    padding: 10px;
+    border-right: 1px solid rgb(209, 209, 209);
+    width: max-content;
+    min-width: 250px;
+}
+
+.GroupsList{
+    list-style: none;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.GroupsList__nav.children{
+    border-right: none;
+    min-width: auto;
+}
+
+.GroupsList.children{
+    margin-left: 20px;
+    min-height: auto;
+}
+
+.GroupsList__link{
+    margin-top: 10px;
+}
+
+.GroupsList__link > a{
+    text-decoration: none;
+}
+
+.Groups__title{
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+    .GroupsList{
+        min-height: auto;
+        max-width: none;
+        border-right: none;
+    }
+    .GroupsList__nav{
+        width: 100%;
+        border-bottom: 1px solid rgb(209, 209, 209);
+    }
+    .GroupsList__nav.children{
+        border-bottom: none;
+    }
+}

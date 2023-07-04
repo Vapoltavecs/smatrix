@@ -1,0 +1,57 @@
+{
+    "groups": [
+        {
+            "id": 1,
+            "idParent": null,
+            "name": "Бытовая техника",
+            "logo": "123"
+        },
+        {
+            "id": 2,
+            "idParent": 1,
+            "name": "Техника для кухни"
+        },
+        {
+            "id": 3,
+            "idParent": 1,
+            "name": "Техника для дома"
+        },
+        {
+            "id": 4,
+            "idParent": null,
+            "name": "Красота и здоровье"
+        }
+    ],
+    "items": [
+        {
+            "id": 109,
+            "idGroup": 4,
+            "product": {
+                "id": 3,
+                "name": "Шампунь чистая линия",
+                "price": 32000,
+                "description": "Lorem ipsum dolor sit amet",
+                "weight": 1,
+                "unitType": "л."
+            }
+        },
+        {
+            "id": 100,
+            "idGroup": 3,
+            "product": {
+                "id": 1,
+                "name": "Утюг",
+                "price": 190000
+            }
+        },
+        {
+            "id":101,
+            "idGroup": null,
+            "product": {
+                "id": 1,
+                "name": "Прочий товар без каталога",
+                "price": 14600
+            }
+        }
+    ]
+}

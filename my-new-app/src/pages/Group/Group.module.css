@@ -1,0 +1,8 @@
+.Group{
+    padding: 10px;
+    width: 100%;
+}
+
+.Group__title{
+    font-size: 1.7em;
+}

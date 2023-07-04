@@ -1,0 +1,24 @@
+.Item{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.Item__name{
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.Item__description {
+    margin-top: 5px;
+    font-size: 0.8em;
+    color: var(--light-gray-color);
+}
+
+.Item__info{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

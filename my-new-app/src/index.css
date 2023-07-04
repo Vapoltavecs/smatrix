@@ -1,0 +1,30 @@
+:root{
+  --primary-color: #353535;
+  --secondary-color: #109e05;
+  --light-gray-color: #797979;
+}
+
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root{
+  display: flex;
+  gap: 20px;
+}
+
+body{
+  color: var(--primary-color);
+}
+
+@media(max-width: 600px){
+  #root{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
